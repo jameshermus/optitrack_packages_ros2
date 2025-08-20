@@ -11,11 +11,11 @@ optitrack_wrapper_node:
     # If the NatNet server is hosted on another machine, please use the IP address of the other machine
     # make sure to deactivate the Windows Firewall and check with ping if the IP is reachable
     # Also, the IP of the correct network adapter needs to be selected in Motive
-    server_address: "192.168.194.150"
+    server_address: "172.31.40.35"
     # local IP: no need to specify it
     local_address: ""
     # type of the connection: Multicast, Unicast.
-    connection_type: "Multicast"
+    connection_type: "Unicast"
     # multicast address of the server
     multicast_address: "239.255.42.99" #default value : 239.255.42.99
     # port where to send commands
